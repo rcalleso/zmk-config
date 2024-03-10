@@ -32,14 +32,18 @@
     combos {
         compatible = "zmk,combos";
 
-        Control-Alt-Supr {
-            bindings = <&kp LA(LC(DEL))>;
-            key-positions = <19 20 21>;
+        Windows-E {
+            bindings = <&kp LG(E)>;
+            key-positions = <16 15>;
         };
+       
     };
 
     /* 
-
+         Control-Alt-Supr {
+            bindings = <&kp LA(LC(DEL))>;
+            key-positions = <19 20 21>;
+        };
         Windows-M {
             bindings = <&kp LG(M)>;
             key-positions = <31 32>;
