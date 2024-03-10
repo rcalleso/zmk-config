@@ -29,7 +29,7 @@
         };
     };
 
-    combos {
+   /* combos {
         compatible = "zmk,combos";
 
         Control-Alt-Supr {
@@ -52,6 +52,7 @@
             key-positions = <16 15>;
         };
     };
+*/
 
     keymap {
         compatible = "zmk,keymap";
