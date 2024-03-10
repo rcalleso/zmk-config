@@ -46,6 +46,11 @@
             bindings = <&kp LG(R)>;
             key-positions = <31 30>;
         };
+
+        Windows-E {
+            bindings = <&kp LG(E)>;
+            key-positions = <16 15>;
+        };
     };
 
     keymap {
