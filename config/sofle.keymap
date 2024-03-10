@@ -37,12 +37,12 @@
             key-positions = <19 20 21>;
         };
   };
-/*
+
         Windows-M {
             bindings = <&kp LG(M)>;
             key-positions = <31 32>;
         };
-
+/*
         Windows-R {
             bindings = <&kp LG(R)>;
             key-positions = <31 30>;
