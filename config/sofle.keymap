@@ -36,16 +36,6 @@
             bindings = <&kp RG(E)>;
             key-positions = <28 27>;
         };
-
-        Windows-M {
-            bindings = <&kp  RG(M)>;
-            key-positions = <31 32>;
-        };
-
-        Windows-E {
-            bindings = <&kp RG(E)>;
-            key-positions = <16 15>;
-        };
     };
 
     keymap {
