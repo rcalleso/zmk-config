@@ -42,11 +42,6 @@
             key-positions = <31 32>;
         };
 
-        Windows-R {
-            bindings = <&kp RG(R)>;
-            key-positions = <31 30>;
-        };
-
         Windows-E {
             bindings = <&kp RG(E)>;
             key-positions = <16 15>;
