@@ -48,8 +48,13 @@
         };
 
         Admin_devices {
-            bindings = <&kp LC(LA(PRINTSCREEN))>;
+            bindings = <&kp RG(PRINTSCREEN)>;
             key-positions = <25 34>;
+        };
+
+        Ctrl-Alt-Sup {
+            bindings = <&kp LC(LA(DELETE))>;
+            key-positions = <28 31>;
         };
     };
 
