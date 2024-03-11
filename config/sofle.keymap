@@ -33,8 +33,13 @@
         compatible = "zmk,combos";
 
         Ejecutar {
-            bindings = <&kp RG(E)>;
+            bindings = <&kp RG(R)>;
             key-positions = <28 27>;
+        };
+
+        Explorer {
+            bindings = <&kp RG(E)>;
+            key-positions = <16 15>;
         };
     };
 
