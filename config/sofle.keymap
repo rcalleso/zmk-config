@@ -46,6 +46,11 @@
             bindings = <&kp RG(M)>;
             key-positions = <39 40>;
         };
+
+        Admin_devices {
+            bindings = <&kp LC(LA(PRINTSCREEN))>;
+            key-positions = <25 34>;
+        };
     };
 
     keymap {
