@@ -34,9 +34,8 @@
 
         Windows-E {
             bindings = <&kp LG(E)>;
-            key-positions = <16 15>;
+            key-positions = <16 15 17>;
         };
-       
     };
 
     /* 
