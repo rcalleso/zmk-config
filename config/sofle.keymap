@@ -36,29 +36,27 @@
             bindings = <&kp RG(E)>;
             key-positions = <28 27>;
         };
-    };
-
-    /* 
+   
          Control-Alt-Supr {
             bindings = <&kp LA(LC(DEL))>;
             key-positions = <19 20 21>;
         };
         Windows-M {
-            bindings = <&kp LG(M)>;
+            bindings = <&kp  RG(M)>;
             key-positions = <31 32>;
         };
 
         Windows-R {
-            bindings = <&kp LG(R)>;
+            bindings = <&kp RG(R)>;
             key-positions = <31 30>;
         };
 
         Windows-E {
-            bindings = <&kp LG(E)>;
+            bindings = <&kp RG(E)>;
             key-positions = <16 15>;
         };
   
-*/
+    };
 
     keymap {
         compatible = "zmk,keymap";
