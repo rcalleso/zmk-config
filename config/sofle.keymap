@@ -47,8 +47,8 @@
             key-positions = <39 40>;
         };
 
-        Admin_devices {
-            bindings = <&kp RG(PRINTSCREEN)>;
+        Imprimir-Pantalla {
+            bindings = <&kp RG(LS(S))>;
             key-positions = <25 34>;
         };
 
