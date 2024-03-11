@@ -32,9 +32,9 @@
     combos {
         compatible = "zmk,combos";
 
-        Windows-R {
-            bindings = <&kp K_EXEC>;
-            key-positions = <16 17>;
+        Ejecutar {
+            bindings = <&kp RG(E)>;
+            key-positions = <28 27>;
         };
     };
 
