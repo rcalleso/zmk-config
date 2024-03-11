@@ -41,6 +41,11 @@
             bindings = <&kp RG(E)>;
             key-positions = <16 15>;
         };
+
+        Minimizar {
+            bindings = <&kp RG(M)>;
+            key-positions = <39 40>;
+        };
     };
 
     keymap {
