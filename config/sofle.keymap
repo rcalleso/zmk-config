@@ -39,7 +39,7 @@
 
         Explorer {
             bindings = <&kp RG(E)>;
-            key-positions = <16 15>;
+            key-positions = <14 15>;
         };
 
         Minimizar {
