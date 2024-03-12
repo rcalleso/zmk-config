@@ -34,7 +34,7 @@
 
         Ejecutar {
             bindings = <&kp RG(R)>;
-            key-positions = <28 27>;
+            key-positions = <28 31>;
         };
 
         Explorer {
@@ -54,7 +54,7 @@
 
         Ctrl-Alt-Sup {
             bindings = <&kp LC(LA(DELETE))>;
-            key-positions = <28 31>;
+            key-positions = <24 35>;
         };
     };
 
