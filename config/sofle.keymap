@@ -34,27 +34,17 @@
 
         Ejecutar {
             bindings = <&kp RG(R)>;
-            key-positions = <28 31>;
+            key-positions = <28 31 27 32>;
         };
 
         Explorer {
             bindings = <&kp RG(E)>;
-            key-positions = <14 15>;
-        };
-
-        Minimizar {
-            bindings = <&kp RG(M)>;
-            key-positions = <39 40>;
+            key-positions = <14 15 16>;
         };
 
         Imprimir-Pantalla {
             bindings = <&kp RG(LS(S))>;
-            key-positions = <25 34>;
-        };
-
-        Ctrl-Alt-Sup {
-            bindings = <&kp LC(LA(DELETE))>;
-            key-positions = <24 35>;
+            key-positions = <25 34 39 27>;
         };
     };
 
@@ -96,11 +86,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                    &kp F6     &kp F7    &kp F8           &kp F9     &kp F10   &kp F11
-&trans      &trans     &trans     &trans     &trans     &trans                    &kp ES_QUES     &kp ES_IQUE    &kp N8           &kp N9     &kp N0    &kp F12
-&trans      &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
-&trans      &trans     &trans     &trans     &trans     &trans  &trans    &trans  &kp LBKT   &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &trans
-                       &trans     &trans     &trans     &trans  &trans    &trans  &trans     &trans    &trans           &trans
+&kp ESCAPE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                    &kp F6       &kp F7       &kp F8           &kp F9     &kp F10   &kp F11
+&trans      &trans     &trans     &trans     &trans     &trans                    &kp ES_QUES  &kp ES_IQUE  &kp N8           &kp N9     &kp N0    &kp F12
+&trans      &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp CARET    &kp AMPS     &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
+&trans      &trans     &trans     &trans     &trans     &trans  &trans    &trans  &kp LBKT     &kp RBKT     &kp SEMI         &kp COLON  &kp BSLH  &trans
+                       &trans     &trans     &trans     &trans  &trans    &trans  &trans       &trans       &trans           &trans
             >;
         };
 
@@ -138,6 +128,16 @@
 &none              &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &out OUT_TOG                               &bl BL_TOG  &bl BL_INC  &bl BL_DEC  &bl BL_CYCLE  &none  &none
 &none              &none            &none            &none            &none            &none            &rgb_ug RGB_TOG    &none  &none       &none       &none       &none         &none  &none
                                     &none            &none            &none            &none            &none              &none  &none       &none       &none       &none
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
