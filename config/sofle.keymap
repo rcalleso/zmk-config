@@ -86,11 +86,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                    &kp F6       &kp F7       &kp F8           &kp F9     &kp F10   &kp F11
-&trans      &trans     &trans     &trans     &trans     &trans                    &kp ES_QUES  &kp ES_IQUE  &kp N8           &kp N9     &kp N0    &kp F12
-&trans      &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp CARET    &kp AMPS     &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
-&trans      &trans     &trans     &trans     &trans     &trans  &trans    &trans  &kp LBKT     &kp RBKT     &kp SEMI         &kp COLON  &kp BSLH  &trans
-                       &trans     &trans     &trans     &trans  &trans    &trans  &trans       &trans       &trans           &trans
+&kp ESCAPE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                    &kp F6        &kp F7    &kp F8           &kp F9     &kp F10   &kp F11
+&trans      &trans     &trans     &trans     &trans     &trans                    &kp NUMBER_6  &kp N7    &kp N8           &kp N9     &kp N0    &kp F12
+&trans      &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp CARET     &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
+&trans      &trans     &trans     &trans     &trans     &trans  &trans    &trans  &kp LBKT      &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &trans
+                       &trans     &trans     &trans     &trans  &trans    &trans  &trans        &trans    &trans           &trans
             >;
         };
 
