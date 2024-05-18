@@ -86,11 +86,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE  &kp F1     &kp F2     &kp F3     &kp F4     &kp F5                    &kp F6        &kp F7    &kp F8           &kp F9     &kp F10   &kp F11
-&trans      &trans     &trans     &trans     &trans     &trans                    &kp NUMBER_6  &kp N7    &kp N8           &kp N9     &kp N0    &kp F12
-&trans      &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp CARET     &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp RPAR  &kp PIPE
-&trans      &trans     &trans     &trans     &trans     &trans  &trans    &trans  &kp LBKT      &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &trans
-                       &trans     &trans     &trans     &trans  &trans    &trans  &trans        &trans    &trans           &trans
+&kp ESCAPE        &trans                &trans     &trans        &trans                 &trans                               &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &trans
+&kp LEFT_BRACKET  &kp LESS_THAN         &trans     &kp EXCL      &kp GREATER_THAN       &kp RIGHT_BRACKET                    &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &trans
+&kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp LC(X)  &kp QUESTION  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE                      &kp CARET  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS   &trans
+&trans            &trans                &trans     &trans        &trans                 &trans             &trans    &trans  &kp LBKT   &kp KP_NUMBER_0  &kp DOT          &kp COLON        &kp BSLH   &trans
+                                        &trans     &trans        &trans                 &trans             &trans    &trans  &trans     &trans           &trans           &trans
             >;
         };
 
@@ -105,11 +105,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6                    &kp F7     &kp F8         &kp F9    &kp F10    &kp F11   &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PG_UP  &kp BACKSPACE  &kp UP    &kp DEL    &kp HOME  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans         &trans    &trans     &trans    &trans
-                &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans         &trans    &trans
+&kp F1  &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                    &kp F7     &kp F8         &kp F9    &kp F10    &kp F11   &kp F12
+&trans  &trans     &trans     &trans     &trans     &trans                    &kp PG_UP  &kp BACKSPACE  &kp UP    &kp DEL    &kp HOME  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END   &trans
+&trans  &trans     &trans     &trans     &trans     &trans  &trans    &trans  &trans     &trans         &trans    &trans     &trans    &trans
+                   &trans     &trans     &trans     &trans  &trans    &trans  &trans     &trans         &trans    &trans
             >;
         };
 
