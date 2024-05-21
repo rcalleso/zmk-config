@@ -87,11 +87,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE        &trans                &trans     &trans        &trans                 &trans                               &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &trans
-&kp LEFT_BRACKET  &kp LESS_THAN         &trans     &kp EXCL      &kp GREATER_THAN       &kp RIGHT_BRACKET                    &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &trans
-&kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp ES_QUES  &kp QUESTION  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE                      &kp CARET  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS   &trans
-&trans            &trans                &trans     &trans        &trans                 &trans             &trans    &trans  &trans     &kp KP_NUMBER_0  &kp DOT          &kp COLON        &kp BSLH   &trans
-                                        &trans     &trans        &trans                 &trans             &trans    &trans  &trans     &trans           &trans           &trans
+&kp ESCAPE        &trans                &trans         &trans        &trans                 &trans                               &trans     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH  &trans
+&kp LEFT_BRACKET  &kp LESS_THAN         &kp LS(EQUAL)  &kp EXCL      &kp GREATER_THAN       &kp RIGHT_BRACKET                    &trans     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &trans
+&kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &kp EQUAL      &kp QUESTION  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE                      &kp CARET  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS   &trans
+&trans            &trans                &trans         &trans        &trans                 &trans             &trans    &trans  &trans     &kp KP_NUMBER_0  &kp DOT          &kp COLON        &kp BSLH   &trans
+                                        &trans         &trans        &trans                 &trans             &trans    &trans  &trans     &trans           &trans           &trans
             >;
         };
 
