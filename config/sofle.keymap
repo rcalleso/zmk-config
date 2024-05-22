@@ -58,7 +58,7 @@
             // ------------------------------------------------------------------------------------------------------------
             // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   -   |
             // |  TAB  |  Q  |  W  |  E   |  R   |  T   |                   |  Y   |  U    |  I    |  O   |   P   |   +   |
-            // |    |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
+            // | CAPS  |  A  |  S  |  D   |  F   |  G   |                   |  H   |  J    |  K    |  L   |   ;   |   '   |
             // | SHIFT |  Z  |  X  |  C   |  V   |  B   |  MUTE  |  |       |  N   |  M    |  ,    |  .   |   /   | SHIFT |
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
@@ -80,18 +80,18 @@
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
-            // |       |  F1 |  F2 |  F3  |  F4  |  F5  |                   |  F6  |  F7   |  F8   |  F9  |  F10  |  F11  |
-            // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  ¿   |  ?    |  8    |  9   |   0   |  F12  |
-            // |       |  !  |  @  |  #   |  $   |  %   |                   |  ^   |  &    |  *    |  (   |   )   |   |   |
-            // |       |  =  |  -  |  +   |  {   |  }   |        |  |       |  [   |  ]    |  ;    |  :   |   \   |       |
+            // | ESC   |     |     |      |      |      |                   |      |  7    |  8    |  9   |   *   |       |
+            // |   [   |  <  |  ¡  |  !   |  >   |  ]   |                   |      |  4    |  5    |  6   |   -   |       |
+            // |   {   |  (  |  ¿  |  ?   |  )   |  }   |                   |  =   |  1    |  2    |  3   |   +   |       |
+            // |       |     |     |      |      |      |        |  |       |      |  0    |  .    |  ,   |   \   |       |
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE        &trans                 &trans         &trans            &trans                 &trans                               &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &trans
-&kp ES_LBRC       &kp ES_LABK            &kp ES_IEXL    &kp ES_EXLM       &kp ES_RABK            &kp ES_RBRC                          &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &trans
-&kp ES_LCBR       &kp ES_LPRN            &kp ES_IQUE    &kp ES_QUES       &kp ES_RPRN            &kp ES_RCBR                          &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS   &trans
-&trans            &trans                 &trans         &trans            &trans                 &trans             &trans    &trans  &trans  &kp KP_NUMBER_0  &kp DOT          &trans           &kp BSLH   &trans
-                                         &trans         &trans            &trans                 &trans             &trans    &trans  &trans  &trans           &trans           &trans
+&kp ESCAPE        &trans                 &trans         &trans            &trans                 &trans                               &trans       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK &trans
+&kp ES_LBRC       &kp ES_LABK            &kp ES_IEXL    &kp ES_EXLM       &kp ES_RABK            &kp ES_RBRC                          &trans       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS    &trans
+&kp ES_LCBR       &kp ES_LPRN            &kp ES_IQUE    &kp ES_QUES       &kp ES_RPRN            &kp ES_RCBR                          &kp KP_EQUAL &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS     &trans
+&trans            &trans                 &trans         &trans            &trans                 &trans             &trans    &trans  &trans       &kp KP_NUMBER_0  &kp DOT          &kp KP_COMMA     &kp KP_SLASH    &trans
+                                         &trans         &trans            &trans                 &trans             &trans    &trans  &trans       &trans           &trans           &trans
             >;
         };
 
@@ -99,18 +99,18 @@
             display-name = "raise";
 
             // ------------------------------------------------------------------------------------------------------------
-            // | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                |      |      |       |      |       |       |
-            // |       | INS  | PSCR | GUI   |       |      |                | PGUP |      |   ^   |      |       |       |
-            // |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |   <- |   v   |  ->  |  DEL  | BKSPC |
-            // |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |      |       |      |       |       |
-            //                |      |       |       |      |      |  |      |      |      |       |      |
+            // |   F1  |  F2   |   F3    |  F4   |  F5   |  F6   |                |  F7  |  F8  |  F9   | F10  |  F11  |  F12  |
+            // | CASUP | PRTSC |  WIN+M  | WIN+E | WIN+R | WIN+L |                | PGUP |BCKSPC|   ^   |  DEL |  HOME |       |
+            // |       | UNDO  |   CUT   | COPY  | PASTE |       |                | PGDN |   <- |   v   |  ->  |  END  |       |
+            // |       |       |         |       |       |       |      |  |      |      |      |       |      |       |       |
+            //                 |         |       |       |       |      |  |      |      |      |       |      |
 
             bindings = <
-&kp F1  &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                    &kp F7     &kp F8         &kp F9    &kp F10    &kp F11   &kp F12
-&trans  &trans     &trans     &trans     &trans     &trans                    &kp PG_UP  &kp BACKSPACE  &kp UP    &kp DEL    &kp HOME  &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END   &trans
-&trans  &trans     &trans     &trans     &trans     &trans  &trans    &trans  &trans     &trans         &trans    &trans     &trans    &trans
-                   &trans     &trans     &trans     &trans  &trans    &trans  &trans     &trans         &trans    &trans
+&kp F1                  &kp F2     &kp F3     &kp F4      &kp F5      &kp F6                    &kp F7     &kp F8         &kp F9    &kp F10    &kp F11   &kp F12
+&kp LCTRL LEFT_ALT DEL  &kp PSCRN  &kp LGUI m &kp LGUI e  &kp LGUI r  &kp LGUI l                &kp PG_UP  &kp BACKSPACE  &kp UP    &kp DEL    &kp HOME  &trans
+&trans                  &kp K_UNDO &kp K_CUT  &kp K_COPY  &kp K_PASTE &trans                    &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END   &trans
+&trans                  &trans     &trans     &trans      &trans      &trans  &trans    &trans  &trans     &trans         &trans    &trans     &trans    &trans
+                                   &trans     &trans      &trans      &trans  &trans    &trans  &trans     &trans         &trans    &trans
             >;
         };
 
@@ -119,7 +119,7 @@
             // | BTCLR  |  BT1    |  BT2    |   BT3   |   BT4   |   BT5   |                  |      |      |       |      |       |       |
             // | EXTPWR | RGB_HUD | RGB_HUI | RGB_SAD | RGB_SAI | RGB_EFF |                  |      |      |       |      |       |       |
             // |        | RGB_BRD | RGB_BRI |         |         |         |                  |      |      |       |      |       |       |
-            // |        |         |         |         |         |         | RGB_TOG | |      |      |      |       |      |       |       |
+            // |        |         |         |         |         | OUT_TOG | RGB_TOG | |      |      |      |       |      |       |       |
             //                    |         |         |         |         |         | |      |      |      |       |      |
 
             display-name = "adjust";
