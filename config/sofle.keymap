@@ -88,8 +88,8 @@
 
             bindings = <
 &kp ESCAPE        &trans                 &trans         &trans            &trans                 &trans                               &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS  &trans
-&kp LEFT_BRACKET  &kp LESS_THAN          &kp LS(EQUAL)  &kp EXCLAMATION   &kp GREATER_THAN       &kp RIGHT_BRACKET                    &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &trans
-&kp RS(SQT)       &kp RIGHT_PARENTHESIS  &kp RS(MINUS)  &kp LS(QUESTION)  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE                      &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS   &trans
+&kp ES_LBRC       &kp ES_LABK            &kp ES_IEXL    &kp ES_EXLM       &kp ES_RABK            &kp ES_RBRC                          &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &trans
+&kp ES_LCBR       &kp ES_LPRN            &kp ES_IQUE    &kp ES_QUES       &kp ES_RPRN            &kp ES_RCBR                          &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PLUS   &trans
 &trans            &trans                 &trans         &trans            &trans                 &trans             &trans    &trans  &trans  &kp KP_NUMBER_0  &kp DOT          &trans           &kp BSLH   &trans
                                          &trans         &trans            &trans                 &trans             &trans    &trans  &trans  &trans           &trans           &trans
             >;
