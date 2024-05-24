@@ -80,15 +80,15 @@
 
             // TODO: Some binds are waiting for shifted keycode support.
             // ------------------------------------------------------------------------------------------------------------
-            // | ESC   |     |     |      |      |      |                   |      |  7    |  8    |  9   |   *   |       |
-            // |   [   |  <  |  ¡  |  !   |  >   |  ]   |                   |      |  4    |  5    |  6   |   -   |       |
+            // | ESC   |     |     |      |      |      |                   |      |  7    |  8    |  9   |   -   |       |
+            // |   [   |  <  |  ¡  |  !   |  >   |  ]   |                   |      |  4    |  5    |  6   |   *   |       |
             // |   {   |  (  |  ¿  |  ?   |  )   |  }   |                   |  =   |  1    |  2    |  3   |   +   |       |
             // |       |     |     |      |      |      |        |  |       |      |  0    |  .    |  ,   |   \   |       |
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE        &trans                 &trans         &trans            &trans                 &trans                               &trans       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_ASTERISK &trans
-&kp ES_LBRC       &kp ES_LABK            &kp ES_IEXL    &kp ES_EXLM       &kp ES_RABK            &kp ES_RBRC                          &trans       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MINUS    &trans
+&kp ESCAPE        &trans                 &trans         &trans            &trans                 &trans                               &trans       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS    &trans
+&kp ES_LBRC       &kp ES_LABK            &kp ES_IEXL    &kp ES_EXLM       &kp ES_RABK            &kp ES_RBRC                          &trans       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK &trans
 &kp ES_LCBR       &kp ES_LPRN            &kp ES_IQUE    &kp ES_QUES       &kp ES_RPRN            &kp ES_RCBR                          &kp ES_EQL   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS     &trans
 &trans            &trans                 &trans         &trans            &trans                 &trans             &trans    &trans  &trans       &kp KP_NUMBER_0  &kp DOT          &kp KP_COMMA     &kp KP_SLASH    &trans
                                          &trans         &trans            &trans                 &trans             &trans    &trans  &trans       &trans           &trans           &trans
