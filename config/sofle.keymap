@@ -47,6 +47,11 @@
             bindings = <&kp RG(LS(S))>;
             key-positions = <25 34 39 27>;
         };
+
+        Alt-F4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <4 50>;
+        };
     };
 
     keymap {
@@ -87,11 +92,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp ESCAPE        &trans                 &trans         &trans            &trans                 &trans                               &trans       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS    &trans
-&kp ES_LBRC       &kp ES_LABK            &kp ES_IEXL    &kp ES_EXLM       &kp ES_RABK            &kp ES_RBRC                          &trans       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK &trans
-&kp ES_LCBR       &kp ES_LPRN            &kp ES_IQUE    &kp ES_QUES       &kp ES_RPRN            &kp ES_RCBR                          &kp ES_EQL   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS     &trans
-&trans            &trans                 &trans         &trans            &kp ES_TILD            &kp ES_CCED        &trans    &trans  &trans       &kp KP_NUMBER_0  &kp DOT          &kp KP_COMMA     &kp KP_SLASH    &trans
-                                         &trans         &trans            &trans                 &trans             &trans    &trans  &trans       &trans           &trans           &trans
+&kp ESCAPE   &trans       &trans       &trans       &trans       &trans                         &trans      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS     &trans
+&kp ES_LBRC  &kp ES_LABK  &kp ES_IEXL  &kp ES_EXLM  &kp ES_RABK  &kp ES_RBRC                    &trans      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_ASTERISK  &trans
+&kp ES_LCBR  &kp ES_LPRN  &kp ES_IQUE  &kp ES_QUES  &kp ES_RPRN  &kp ES_RCBR                    &kp ES_EQL  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_PLUS      &trans
+&trans       &trans       &trans       &trans       &kp ES_TILD  &kp ES_CCED  &trans    &trans  &trans      &kp KP_NUMBER_0  &kp DOT          &kp KP_COMMA     &kp KP_SLASH     &trans
+                          &trans       &trans       &trans       &trans       &trans    &trans  &trans      &trans           &trans           &trans
             >;
         };
 
@@ -106,11 +111,11 @@
             //                 |         |       |       |       |      |  |      |      |      |       |      |
 
             bindings = <
-&kp F1            &kp F2     &kp F3      &kp F4      &kp F5     &kp F6                    &kp F7     &kp F8         &kp F9    &kp F10    &kp F11   &kp F12
-&kp LC(LA(DEL))   &kp PSCRN  &kp RG(M)   &kp RG(E)   &kp RG(R)  &trans                    &kp PG_UP  &kp BACKSPACE  &kp UP    &kp DEL    &kp HOME  &trans
-&trans            &kp LC(Z)  &kp LC(X)   &kp LC(C)   &kp LC(V)  &trans                    &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END   &trans
-&trans            &trans     &trans      &trans      &trans     &trans  &trans    &trans  &trans     &trans         &trans    &trans     &trans    &trans
-                             &trans      &trans      &trans     &trans  &trans    &trans  &trans     &trans         &trans    &trans
+&kp F1           &kp F2     &kp F3     &kp F4     &kp F5     &kp F6                    &kp F7     &kp F8         &kp F9    &kp F10    &kp F11   &kp F12
+&kp LC(LA(DEL))  &kp PSCRN  &kp RG(M)  &kp RG(E)  &kp RG(R)  &trans                    &kp PG_UP  &kp BACKSPACE  &kp UP    &kp DEL    &kp HOME  &trans
+&trans           &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans                    &kp PG_DN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END   &trans
+&trans           &trans     &trans     &trans     &trans     &trans  &trans    &trans  &trans     &trans         &trans    &trans     &trans    &trans
+                            &trans     &trans     &trans     &trans  &trans    &trans  &trans     &trans         &trans    &trans
             >;
         };
 
