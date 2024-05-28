@@ -45,7 +45,7 @@
 
         Imprimir-Pantalla {
             bindings = <&kp RG(LS(S))>;
-            key-positions = <25 34 39 27>;
+            key-positions = <34 25 28 31>;
         };
 
         Alt-F4 {
