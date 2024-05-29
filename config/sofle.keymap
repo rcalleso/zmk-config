@@ -48,7 +48,7 @@
             key-positions = <34 25 28 31>;
         };
 
-        Alt-F4 {
+        AltF4 {
             bindings = <&kp LA(F4)>;
             key-positions = <4 50>;
         };
